@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydroponics & e-Soil</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header Styles */
+        .heading {
+            color: white;
+            background-color: #2e7d32; /* Dark Green */
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 0 20px;
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Section Styles */
+        h4 {
+            text-align: center;
+            font-size: 2.2rem;
+            color: #2e7d32;
+            margin-top: 30px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            color: #333;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ol {
+            max-width: 900px;
+            margin: 30px auto;
+            padding-left: 20px;
+            font-size: 1.1rem;
+            color: #333;
+            list-style-type: decimal;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ol li {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        /* Button Styles */
+        .nav_btn {
+            background-color: #00796b;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition: background-color 0.3s, transform 0.3s ease-in-out;
+            margin-top: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .nav_btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav_btn:hover {
+            background-color: #004d40;
+            transform: scale(1.1); /* slight zoom effect */
+        }
+
+        /* Navigation Links */
+        .nav_links {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .nav_links button {
+            background-color: #2e7d32;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            color: white;
+            margin: 0 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s ease-in-out;
+        }
+
+        .nav_links button:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .heading {
+                height: 150px;
+                font-size: 2rem;
+            }
+
+            h4 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1rem;
+                padding: 15px;
+            }
+
+            ol {
+                font-size: 1rem;
+                padding-left: 15px;
+            }
+
+            .nav_btn {
+                padding: 12px 25px;
+                font-size: 1.3rem;
+            }
+
+            .nav_links button {
+                padding: 10px 20px;
+                font-size: 1.1rem;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="heading">
+        <h1>Our Research on e-Soil and Hydroponics</h1>
+    </header>
+
+    <!-- Navigation Links to Sections -->
+    <div class="nav_links">
+        <button onclick="document.getElementById('hydroponics').scrollIntoView();">What is Hydroponics?</button>
+        <button onclick="document.getElementById('why_esoil').scrollIntoView();">Why e-Soil?</button>
+        <button onclick="document.getElementById('uses_benefits').scrollIntoView();">Uses & Benefits of e-Soil</button>
+        <button onclick="document.getElementById('discovery').scrollIntoView();">Discovery</button>
+        <button onclick="document.getElementById('future').scrollIntoView();">The Future</button>
+        <button onclick="document.getElementById('history').scrollIntoView();">History</button>
+    </div>
+
+    <!-- What is Hydroponics? -->
+    <section id="hydroponics">
+        <h4>What is Hydroponics?</h4>
+        <p>
+            Hydroponics is a method of growing plants without soil, using mineral nutrient solutions in water. The roots of the plants are submerged in this nutrient-rich solution, which provides everything the plant needs to grow. This system allows for faster plant growth, greater control over nutrient levels, and the ability to grow in places where traditional soil-based farming might not be possible.
+        </p>
+    </section>
+
+    <!-- Why e-Soil? -->
+    <section id="why_esoil">
+        <h4>Why e-Soil?</h4>
+        <p>
+            Traditional hydroponic systems use mineral wool or other inert materials as substrates to support plant roots. However, these materials often lack the ability to interact with the plants' biological systems in a meaningful way. This is where <strong>e-Soil</strong> comes in. e-Soil is a revolutionary substrate that enhances plant growth by integrating conductive properties, which can stimulate the root system and promote healthier, faster-growing plants. By applying low-voltage electrical currents through the plant roots, e-Soil helps create a more biologically active environment for plants, improving root health and nutrient absorption.
+        </p>
+    </section>
+
+    <!-- What is e-Soil? -->
+    <section id="esoil">
+        <h4>What is e-Soil?</h4>
+        <p>
+            e-Soil is a biodegradable material composed of renewable cellulose combined with a conductive polymer, PEDOT (Poly(3,4-ethylenedioxythiophene)). When used in hydroponic systems, it allows for the transmission of low-voltage electrical currents directly to the plant roots. These electrical currents stimulate root development, which accelerates plant growth and increases overall yield.
+        </p>
+    </section>
+
+    <!-- Uses and Benefits of e-Soil in Hydroponics -->
+    <section id="uses_benefits">
+        <h4>Uses and Benefits of e-Soil in Hydroponics</h4>
+        <ol>
+            <li><strong>Improved Root Health:</strong> The low-voltage electrical stimulation provided by e-Soil enhances root development, leading to healthier plants.</li>
+            <li><strong>Increased Yield:</strong> Plants grown with e-Soil tend to have faster growth cycles and higher yields due to better root nutrient absorption.</li>
+            <li><strong>Energy Efficiency:</strong> e-Soil is made from renewable resources, making it an environmentally friendly alternative to synthetic materials.</li>
+            <li><strong>Biodegradable:</strong> Unlike traditional hydroponic substrates that need to be replaced regularly, e-Soil is biodegradable, making it more sustainable.</li>
+            <li><strong>Low-Cost Alternative:</strong> e-Soil is a cost-effective solution for both small-scale home growers and large commercial hydroponic farms.</li>
+            <li><strong>Easy to Use:</strong> The material is easy to handle and can be incorporated into existing hydroponic systems without the need for extensive modifications.</li>
+        </ol>
+    </section>
+
+    <!-- Discovery -->
+    <section id="discovery">
+        <h4>Discovery</h4>
+        <p>
+            e-Soil is a groundbreaking discovery in the field of hydroponics. It allows electric current to stimulate plant growth without the need for chemical fertilizers. This innovation helps plants process nitrogen more effectively, accelerating their growth. Researchers have already seen a significant increase in the growth of barley seedlings tested with e-Soil, which exhibited a 50% growth spurt in just 15 days.
+        </p>
+    </section>
+
+    <!-- The Future -->
+    <section id="future">
+        <h4>The Future</h4>
+        <p>
+            With the growing global population and the looming threat of climate change, traditional farming methods are struggling to keep up with food demands. Hydroponics, particularly when combined with innovations like e-Soil, may hold the key to feeding the future. The significant improvements in plant growth and yield that e-Soil offers make it a powerful tool in addressing global food security issues.
+        </p>
+    </section>
+
+    <!-- History -->
+    <section id="history">
+        <h4>History</h4>
+        <p>
+            Electro-culture has been explored since the 18th century. Early experiments, such as those by Pierre Bertholon de Saint-Lazare, tested the effects of electrical currents on plant growth. While high-voltage techniques were dismissed for a long time, modern low-voltage electro-culture has proven effective in boosting plant yields and nutrient absorption, marking a new era in sustainable agriculture.
+        </p>
+    </section>
+
+    <!-- Navigation Button -->
+    <center>
+        <button class="nav_btn">
+            <a href="index.html">🏠 Back to Home</a>
+        </button>
+    </center>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Created and Developed by Parv Sharma</p>
+    </footer>
+
+</body>
+
+</html>
